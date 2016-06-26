@@ -14,6 +14,7 @@ namespace Pinoacres.Web.UI
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
+                // May need to add "UseUrls" method here
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
