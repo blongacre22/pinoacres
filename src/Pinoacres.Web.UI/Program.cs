@@ -11,6 +11,8 @@ namespace Pinoacres.Web.UI
     {
         public static void Main(string[] args)
         {
+            string[] urls = new string[] { "http://localhost:80", "http://0.0.0.0:80" };
+
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())

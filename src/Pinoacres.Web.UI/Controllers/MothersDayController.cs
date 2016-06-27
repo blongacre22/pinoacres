@@ -8,8 +8,29 @@ namespace Pinoacres.Web.UI.Controllers
 {
     public class MothersDayController : Controller
     {
-        public IActionResult Home()
+        private string defaultYear = "2016";
+
+        public IActionResult Home(string id)
         {
+            this.ViewData["Year"] = id ?? defaultYear;
+            return View();
+        }
+
+        public IActionResult Notes(string id)
+        {
+            this.ViewData["Year"] = id ?? defaultYear;
+            return View();
+        }
+
+        public IActionResult Pictures(string id)
+        {
+            this.ViewData["Year"] = id ?? defaultYear;
+            return View();
+        }
+
+        public IActionResult Videos(string id)
+        {
+            this.ViewData["Year"] = id ?? defaultYear;
             return View();
         }
     }

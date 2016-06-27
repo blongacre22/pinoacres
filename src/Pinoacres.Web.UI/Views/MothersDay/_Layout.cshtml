@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Pinoacres</title>
 
+    @*<link rel="icon" href="/MothersDay/2016/favicon.ico">*@
+
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <!--<link rel="stylesheet" href="~/css/mothersday/site.css" />-->
+        <link rel="stylesheet" href="~/css/mothersday/mothersday.css" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <!--<link rel="stylesheet" href="~/css/mothersday/site.min.css" asp-append-version="true" />-->
+        <link rel="stylesheet" href="~/css/mothersday/mothersday.min.css" asp-append-version="true" />
     </environment>
 </head>
 <body>
@@ -26,16 +28,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-controller="MothersDay" asp-action="Home" class="navbar-brand">Mothers Day</a>
+                <a asp-controller="MothersDay" asp-action="Home" asp-route-id="@ViewData["Year"]" class="navbar-brand">Mother's Day <span class="glyphicon glyphicon-heart"></span> @ViewData["Year"].ToString()</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-controller="MothersDay" asp-action="Home">Home</a></li>
-                    <li><a asp-controller="MothersDay" asp-action="Home">Notes</a></li>
-                    <li><a asp-controller="MothersDay" asp-action="Home">Pictures</a></li>
-                    <li><a asp-controller="MothersDay" asp-action="Home">Videos</a></li>
+                    <li><a asp-controller="MothersDay" asp-action="Home" asp-route-id="@ViewData["Year"]"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a asp-controller="MothersDay" asp-action="Notes" asp-route-id="@ViewData["Year"]"><span class="glyphicon glyphicon-edit"></span> Love Notes</a></li>
+                    <li><a asp-controller="MothersDay" asp-action="Pictures" asp-route-id="@ViewData["Year"]"><span class="glyphicon glyphicon-picture"></span> Pictures</a></li>
+                    <li><a asp-controller="MothersDay" asp-action="Videos" asp-route-id="@ViewData["Year"]"><span class="glyphicon glyphicon-film"></span> Videos</a></li>
                 </ul>
+                @* Add this if login is implemented *@
                 @*@await Html.PartialAsync("_LoginPartial")*@
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a asp-controller="Home" asp-action="Index" class="navbar-right">Pinoacres</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -43,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2016 - Pinoacres</p>
+            <p>&copy; @DateTime.Now.Year.ToString() - Pinoacres</p>
         </footer>
     </div>
 
