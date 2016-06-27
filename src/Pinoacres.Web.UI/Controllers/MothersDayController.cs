@@ -8,7 +8,7 @@ namespace Pinoacres.Web.UI.Controllers
 {
     public class MothersDayController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
