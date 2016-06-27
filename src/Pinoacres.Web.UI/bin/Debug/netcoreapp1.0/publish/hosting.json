@@ -1,0 +1,4 @@
+﻿{
+  "server": "Microsoft.AspNet.Server.Kestrel",
+  "server.urls": "http://pinoacres.com:80;http://0.0.0.0:80"
+}
