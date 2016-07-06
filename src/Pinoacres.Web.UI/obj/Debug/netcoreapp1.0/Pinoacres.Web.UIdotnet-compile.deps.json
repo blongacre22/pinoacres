@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "370f12cbbaccc26bf6c3eaf2bf4cb86612de5ca0"
+    "signature": "adb24ae72174444f72290d61add7bb334e13f2dd"
   },
   "compilationOptions": {
     "defines": [
@@ -32,7 +32,8 @@
           "Microsoft.Extensions.Logging": "1.0.0-rc2-final",
           "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-final",
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-final",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc2-final"
+          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc2-final",
+          "jQuery.UI.Combined": "1.11.4"
         },
         "compile": {
           "Pinoacres.Web.UI.dll": {}
@@ -41,6 +42,12 @@
       "Ix-Async/1.2.5": {
         "compile": {
           "lib/portable-windows8+net45+wp8/System.Interactive.Async.dll": {}
+        }
+      },
+      "jQuery/1.6.4": {},
+      "jQuery.UI.Combined/1.11.4": {
+        "dependencies": {
+          "jQuery": "1.6.4"
         }
       },
       "Libuv/1.9.0-rc2-20901": {},
@@ -3006,7 +3013,8 @@
           "Microsoft.Extensions.Logging": "1.0.0-rc2-final",
           "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-final",
           "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-final",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc2-final"
+          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc2-final",
+          "jQuery.UI.Combined": "1.11.4"
         },
         "runtime": {
           "Pinoacres.Web.UI.dll": {}
@@ -3015,6 +3023,12 @@
       "Ix-Async/1.2.5": {
         "runtime": {
           "lib/portable-windows8+net45+wp8/System.Interactive.Async.dll": {}
+        }
+      },
+      "jQuery/1.6.4": {},
+      "jQuery.UI.Combined/1.11.4": {
+        "dependencies": {
+          "jQuery": "1.6.4"
         }
       },
       "Libuv/1.9.0-rc2-20901": {},
@@ -5875,6 +5889,16 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-8EXO8q7cpDUH9G2q+UOPOO/6uZ9aN7mx/4xjFIfkp+qLWVJiYuglkRhjY8Ggs2CucXzHR8GHnovJKB5yQoYaJg=="
+    },
+    "jQuery/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8RzoZQFeFYL/cINRXksLWyl8D5TKctZ/2G8hrlOLLM5OgFNI9h3t3l5tB+BBbsBUxaPUageVe0p9ruU5jrFeow=="
+    },
+    "jQuery.UI.Combined/1.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yH5feeb4V4vX9KQdMlNH64f90yXYbthxAXpkbRr99LwwJmTl7+0KBTE61gXFrc9VXg/VxzEyF4u/gOgi+5ZqGw=="
     },
     "Libuv/1.9.0-rc2-20901": {
       "type": "package",

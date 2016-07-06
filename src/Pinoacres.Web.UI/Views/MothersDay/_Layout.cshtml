@@ -9,6 +9,8 @@
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/jquery-ui/themes/base/jquery-ui.css" />
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
         <link rel="stylesheet" href="~/css/mothersday/mothersday.css" />
     </environment>
     <environment names="Staging,Production">
@@ -48,7 +50,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        <footer class="page-footer">
             <p>&copy; @DateTime.Now.Year.ToString() - Pinoacres</p>
         </footer>
     </div>
@@ -56,6 +58,7 @@
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/lib/jquery-ui/jquery-ui.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment names="Staging,Production">

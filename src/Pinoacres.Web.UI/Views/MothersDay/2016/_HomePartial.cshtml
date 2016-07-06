@@ -19,16 +19,16 @@
         <div class="container-fluid nav-links">
             <div class="row">
                 <div class="col-xs-3">
-                    <a href="/MothersDay/2016/index.html"><span class="glyphicon glyphicon-home"></span></a>
+                    <a href="@Url.Action("Home", "MothersDay", new { id = @ViewData["Year"] })"><span class="glyphicon glyphicon-home"></span></a>
                 </div>
                 <div class="col-xs-3">
-                    <a href="/MothersDay/2016/notes.html"><span class="glyphicon glyphicon-edit"></span></a>
+                    <a href="@Url.Action("Notes", "MothersDay", new { id = @ViewData["Year"] })"><span class="glyphicon glyphicon-edit"></span></a>
                 </div>
                 <div class="col-xs-3">
-                    <a href="/MothersDay/2016/pictures.html"><span class="glyphicon glyphicon-picture"></span></a>
+                    <a href="@Url.Action("Pictures", "MothersDay", new { id = @ViewData["Year"] })"><span class="glyphicon glyphicon-picture"></span></a>
                 </div>
                 <div class="col-xs-3">
-                    <a href="/MothersDay/2016/videos.html"><span class="glyphicon glyphicon-film"></span></a>
+                    <a href="@Url.Action("Videos", "MothersDay", new { id = @ViewData["Year"] })"><span class="glyphicon glyphicon-film"></span></a>
                 </div>
             </div>
         </div>

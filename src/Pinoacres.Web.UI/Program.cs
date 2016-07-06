@@ -17,7 +17,8 @@ namespace Pinoacres.Web.UI
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 // May need to add "UseUrls" method here
-                //UseUrls(urls)
+                //.UseUrls(urls)
+                //.UseUrls("http://0.0.0.0:5000")
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
