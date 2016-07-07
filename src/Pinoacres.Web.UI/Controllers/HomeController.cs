@@ -34,6 +34,13 @@ namespace Pinoacres.Web.UI.Controllers
             return View();
         }
 
+        public IActionResult Links()
+        {
+            ViewData["Message"] = "Links for family and friends";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
