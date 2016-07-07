@@ -42,3 +42,8 @@ textarea {
     display: none
   }
 }
+
+.page-footer {
+	margin: 0 auto;
+	text-align: center;
+}
