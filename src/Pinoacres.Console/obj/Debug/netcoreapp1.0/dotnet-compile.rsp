@@ -1,5 +1,5 @@
---temp-output:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\obj\Debug\netcoreapp1.0\
---out:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\bin\Debug\netcoreapp1.0\Pinoacres.Console.dll
+--temp-output:c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\obj\Debug\netcoreapp1.0\
+--out:c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\bin\Debug\netcoreapp1.0\Pinoacres.Console.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -86,6 +86,6 @@
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Lib\bin\Debug\netstandard1.6\Pinoacres.Lib.dll
-C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\Program.cs
-C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\Properties\AssemblyInfo.cs
+--reference:c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Lib\bin\Debug\netstandard1.6\Pinoacres.Lib.dll
+c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\Program.cs
+c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console\Properties\AssemblyInfo.cs

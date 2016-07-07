@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll"
+"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -186,7 +186,7 @@
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
-"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs"
-"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs"
-"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs"
+-resource:"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
+"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs"
+"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs"
+"c:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs"
