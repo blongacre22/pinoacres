@@ -29,9 +29,9 @@ TestResults/
 # Web publish log #
 ###################
 *.Publish.xml
-#############
+##############
 # Resharper #
-#############
+##############
 /_ReSharper.*
 *.ReSharper.*
 ############
