@@ -1,9 +1,20 @@
 ﻿body {
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
-body {
-	padding-top: 50px;
-	padding-bottom: 20px;
+
+a {
+	color: #e799a3;
 }
+
+a:hover {
+	color: #c25a7c;
+}
+
+p {
+	padding: 0 1.1em;
+}
+
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
@@ -64,7 +75,7 @@ textarea {
 }
 
 .glyphicon-phone {
-	color: #625d5d
+	color: #625d5d;
 	font-size: 1.25em;
 }
 
@@ -137,23 +148,6 @@ textarea {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	margin: auto;
-}
-
-body {
-  padding-top: 70px;
-  padding-bottom: 30px;
-}
-
-a {
-	color: #e799a3;
-}
-
-a:hover {
-	color: #c25a7c;
-}
-
-p {
-	padding: 0 1.1em;
 }
 
 .page-footer {
