@@ -15,14 +15,21 @@ namespace Pinoacres.Web.UI.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Personal website of Bruce Longacre II";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact page for the Pinoacres website";
+
+            return View();
+        }
+
+        public IActionResult Resume()
+        {
+            ViewData["Message"] = "Resume for Bruce Longacre II";
 
             return View();
         }
