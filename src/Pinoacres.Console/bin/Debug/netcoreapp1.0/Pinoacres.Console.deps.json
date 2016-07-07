@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v1.0": {
       "Pinoacres.Console/1.0.0": {
+        "dependencies": {
+          "Pinoacres.Lib": "1.0.0"
+        },
         "runtime": {
           "Pinoacres.Console.dll": {}
+        }
+      },
+      "Pinoacres.Lib/1.0.0": {
+        "runtime": {
+          "Pinoacres.Lib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Pinoacres.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pinoacres.Lib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

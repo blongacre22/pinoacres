@@ -16,6 +16,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pinoacres.Web.API", "src\Pi
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pinoacres.Console", "src\Pinoacres.Console\Pinoacres.Console.xproj", "{861F2491-72C5-4762-B707-C987C2304BB5}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pinoacres.Lib", "src\Pinoacres.Lib\Pinoacres.Lib.xproj", "{56F038FA-4A76-4B61-918B-CD6BC9692A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{861F2491-72C5-4762-B707-C987C2304BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861F2491-72C5-4762-B707-C987C2304BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861F2491-72C5-4762-B707-C987C2304BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F038FA-4A76-4B61-918B-CD6BC9692A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F038FA-4A76-4B61-918B-CD6BC9692A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F038FA-4A76-4B61-918B-CD6BC9692A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F038FA-4A76-4B61-918B-CD6BC9692A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 		{67597E39-E6FA-4E08-B31A-699B2C7FC7F7} = {89CC6CD5-B86D-4018-AB9D-1112BC9A490E}
 		{701B99FE-AA24-46BF-AC09-6047FD507D2B} = {89CC6CD5-B86D-4018-AB9D-1112BC9A490E}
 		{861F2491-72C5-4762-B707-C987C2304BB5} = {89CC6CD5-B86D-4018-AB9D-1112BC9A490E}
+		{56F038FA-4A76-4B61-918B-CD6BC9692A9E} = {89CC6CD5-B86D-4018-AB9D-1112BC9A490E}
 	EndGlobalSection
 EndGlobal

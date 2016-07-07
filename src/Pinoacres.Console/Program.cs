@@ -10,6 +10,7 @@ namespace Pinoacres.Console
         public static void Main(string[] args)
         {
             System.Console.WriteLine("Console app MAIN program.");
+            Lib.TestClass.TestMethod();
         }
     }
 }
