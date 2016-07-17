@@ -1,0 +1,24 @@
+** .NET Core 1.0.0 **
+
+sudo yum update -y
+sudo yum install libunwind libicu -y
+curl -sSL -o dotnet.tar.gz https://go.microsoft.com/fwlink/?LinkID=809131
+sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet
+sudo ln -s /opt/dotnet/dotnet /usr/local/bin
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 5000
+TODO - Save iptables settings
+sudo yum install git -y
+git config --global user.name "blongacre22"
+git config --global user.email "longacre.bruce@gmail.com"
+mkdir coreapp
+cd coreapp
+git clone https://github.com/blongacre22/pinoacres.git
+cd pinoacres/src/Pinoacres.Web.UI
+
+* Adjust any code not in source control *
+
+dotnet restore
+dotnet build
+dotnet run
+
+nohup dotnet run > /dev/null 2>&1 &
