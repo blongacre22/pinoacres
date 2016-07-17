@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace Pinoacres.Logic
 {
-    public class Class1
+    public class MLBExtraBasesLogic
     {
-        public Class1()
+        public void GetTicketDataForDate(DateTime date)
         {
+
         }
     }
 }

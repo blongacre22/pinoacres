@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 
 namespace Pinoacres.BusinessObjects
 {
-    public class Class1
+    public class MLBExtraBases
     {
-        public Class1()
-        {
-        }
     }
 }

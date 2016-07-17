@@ -8,12 +8,13 @@ using Pinoacres.Logic;
 
 namespace Pinoacres.MLBExtraBasesService
 {
-    public class Program
+    public class MLBProcessor
     {
-        public static void Main(string[] args)
+        private static API api = new API();
+
+        public void Run()
         {
-            MLBProcessor mlb = new MLBProcessor();
-            mlb.Run();
+            api.MLBExtraBasesLogic.GetTicketDataForDate(DateTime.Today);
         }
     }
 }
