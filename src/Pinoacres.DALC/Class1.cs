@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pinoacres.MLBExtraBasesService
+namespace Pinoacres.DALC
 {
-    public class Program
+    public class Class1
     {
-        public static void Main(string[] args)
+        public Class1()
         {
-
         }
     }
 }
