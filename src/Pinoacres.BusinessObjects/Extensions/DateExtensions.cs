@@ -11,5 +11,10 @@ namespace Pinoacres.BusinessObjects
         {
             return date.DayOfYear > 364;
         }
+
+        public static DateTime SetToFirstOfTheMonth(this DateTime date)
+        {
+            return date = DateTime.Parse(string.Format("{0}/{1}/{2}", date.Month, "01", date.Year));
+        }
     }
 }

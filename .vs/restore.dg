@@ -1,1 +1,4 @@
-#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Library.Tester\Pinoacres.Library.Tester.xproj
+#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj

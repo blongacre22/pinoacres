@@ -16,17 +16,16 @@ namespace Pinoacres.Logic
 {
     public class WebLogic
     {
-        public void GetJsonResponseString(string url)
+        public static string GetJsonResponseString(string url)
         {
-            //url = "http://www.mlbextrabases.com/pubajaxws/bamrest/product/v-1.1?catCode=BOA_TICKETS-sfn-08-2016&lang=en&view=game_cal";
-            //HttpWebRequest request = WebRequest.CreateHttp(url);
-            //var responseTask = request.GetResponseAsync();
-            //var response = responseTask.Result;
-            //var stream = response.GetResponseStream();
-            //var sr = new System.IO.StreamReader(stream);
-            //var json = sr.ReadToEnd();
+            HttpWebRequest request = WebRequest.CreateHttp(url);
+            var responseTask = request.GetResponseAsync();
+            var response = responseTask.Result;
+            var stream = response.GetResponseStream();
+            var sr = new System.IO.StreamReader(stream);
+            var json = sr.ReadToEnd();
 
-            //json = json.Replace("var products = ", string.Empty);
+            return json;
         }
 
         public static string UrlBuilder(params object[] urlParts)

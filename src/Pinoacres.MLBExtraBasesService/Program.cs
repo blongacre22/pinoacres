@@ -12,6 +12,7 @@ namespace Pinoacres.MLBExtraBasesService
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Starting MLB Pinger application.");
             MLBProcessor mlb = new MLBProcessor();
             mlb.Run();
         }

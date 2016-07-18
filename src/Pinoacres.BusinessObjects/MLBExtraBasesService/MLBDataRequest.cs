@@ -18,7 +18,7 @@ namespace Pinoacres.BusinessObjects
         {
             get
             {
-                return Date.ToString("mm-yyyy");
+                return Date.ToString("MM-yyyy");
             }
         }
 
