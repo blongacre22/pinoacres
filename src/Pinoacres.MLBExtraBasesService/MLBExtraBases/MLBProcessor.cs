@@ -18,7 +18,7 @@ namespace Pinoacres.MLBExtraBasesService
             int checkIntervalMinutes = 5;
             DateTime processingTime = DateTime.Now;
 
-            var startEmail = api.MailLogic.CreateMLBStartupEmail("");
+            var startEmail = api.MailLogic.CreateMLBStartupEmail(PinoacresConstants.EmailToAddressMLBStart);
             api.MailLogic.SendEmail(startEmail);
 
             while (keepRunning)
@@ -37,7 +37,7 @@ namespace Pinoacres.MLBExtraBasesService
                             ticketDataList.Add(ticketData);
                         }
 
-                        var ticketsAvailbleEmail = api.MailLogic.CreateMLBTicketsAvailableEmail("", ticketDataList);
+                        var ticketsAvailbleEmail = api.MailLogic.CreateMLBTicketsAvailableEmail(PinoacresConstants.EmailToAddrssMLBAvailable, ticketDataList);
                         api.MailLogic.SendEmail(ticketsAvailbleEmail);
                     }
 

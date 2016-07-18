@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 using Microsoft.AspNetCore;
@@ -19,13 +20,23 @@ namespace Pinoacres.Logic
 
         public void SendEmail(MimeMessage emailMessage)
         {
-            using (var client = new SmtpClient())
+            try
             {
-                client.LocalDomain = PinoacresConstants.SMTPServerUrl;
-                client.Connect(PinoacresConstants.SMTPServerUrl, 587, false);
-                client.Authenticate(new System.Net.NetworkCredential() { UserName = PinoacresConstants.EmailFromAddress, Password = PinoacresConstants.EmailFromPassword });
-                client.Send(emailMessage);
-                client.Disconnect(true);
+                using (var client = new SmtpClient())
+                {
+                    client.LocalDomain = PinoacresConstants.SMTPServerUrl;
+                    client.Connect(PinoacresConstants.SMTPServerUrl, 587, false);
+                    NetworkCredential networkCredential = new NetworkCredential() { UserName = PinoacresConstants.EmailFromAddress, Password = PinoacresConstants.EmailFromPassword };
+                    client.Authenticate(networkCredential);
+                    client.Send(emailMessage);
+                    client.Disconnect(true);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception Message");
+                Console.WriteLine(ex.Message);
+                throw;
             }
         }
 
@@ -57,7 +68,7 @@ namespace Pinoacres.Logic
         public MimeMessage CreateMLBStartupEmail(string toEmail)
         {
             string subject = "Service Started - MLB Extra Bases Pinger (Pinoacres)";
-            string body = "The MLB Extra Bases Pinger has been started on the Pinoacres server.  Email Generation Time: " + DateTime.Now;
+            string body = "The MLB Extra Bases Pinger has been started on the Pinoacres server.  Email Generation Time: " + DateTime.Now.ToLocalTime();
 
             return CreateMLBEmailMessage(toEmail, subject, body);
         }
