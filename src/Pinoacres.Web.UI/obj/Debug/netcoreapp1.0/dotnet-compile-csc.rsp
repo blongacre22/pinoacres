@@ -195,6 +195,7 @@
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\bin\Debug\netstandard1.6\Pinoacres.BusinessObjects.dll"
+-r:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\bin\Debug\netstandard1.6\Pinoacres.DALC.dll"
 -r:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\bin\Debug\netstandard1.6\Pinoacres.Logic.dll"
 -resource:"C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
 "C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs"

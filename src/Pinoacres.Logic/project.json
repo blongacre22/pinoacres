@@ -9,6 +9,7 @@
     "NETStandard.Library": "1.6.0",
     "Newtonsoft.Json": "9.0.1",
     "Pinoacres.BusinessObjects": "1.0.0-*",
+    "Pinoacres.DALC": "1.0.0-*",
     "System.Net.Http": "4.1.0",
     "System.Net.Requests": "4.0.11"
   },

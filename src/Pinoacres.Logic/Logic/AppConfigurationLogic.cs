@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pinoacres.DALC
+namespace Pinoacres.Logic
 {
-    public class Class1
+    public class AppConfigurationLogic
     {
-        public Class1()
-        {
-        }
     }
 }

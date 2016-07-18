@@ -4061,6 +4061,20 @@
           "netstandard1.6/Pinoacres.BusinessObjects.dll": {}
         }
       },
+      "Pinoacres.DALC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "Pinoacres.BusinessObjects": "1.0.0"
+        },
+        "compile": {
+          "netstandard1.6/Pinoacres.DALC.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/Pinoacres.DALC.dll": {}
+        }
+      },
       "Pinoacres.Logic/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
@@ -4072,6 +4086,7 @@
           "NETStandard.Library": "1.6.0",
           "Newtonsoft.Json": "9.0.1",
           "Pinoacres.BusinessObjects": "1.0.0",
+          "Pinoacres.DALC": "1.0.0",
           "System.Net.Http": "4.1.0",
           "System.Net.Requests": "4.0.11"
         },
@@ -10391,6 +10406,11 @@
       "type": "project",
       "path": "../Pinoacres.BusinessObjects/project.json",
       "msbuildProject": "../Pinoacres.BusinessObjects/Pinoacres.BusinessObjects.xproj"
+    },
+    "Pinoacres.DALC/1.0.0": {
+      "type": "project",
+      "path": "../Pinoacres.DALC/project.json",
+      "msbuildProject": "../Pinoacres.DALC/Pinoacres.DALC.xproj"
     },
     "Pinoacres.Logic/1.0.0": {
       "type": "project",

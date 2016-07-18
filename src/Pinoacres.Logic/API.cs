@@ -9,13 +9,17 @@ namespace Pinoacres.Logic
     {
         public API()
         {
-            this.MailLogic = new MailLogic();
-            this.MLBExtraBasesLogic = new MLBExtraBasesLogic();
-            this.WebLogic = new WebLogic();
+            AppConfigurationLogic = new AppConfigurationLogic();
+            MailLogic = new MailLogic();
+            MLBExtraBasesLogic = new MLBExtraBasesLogic();
+            RPSLSLogic = new RPSLSLogic();
+            WebLogic = new WebLogic();
         }
 
+        public AppConfigurationLogic AppConfigurationLogic { get; set; }
         public MailLogic MailLogic { get; set; }
         public MLBExtraBasesLogic MLBExtraBasesLogic { get; set; }
+        public RPSLSLogic RPSLSLogic { get; set; }
         public WebLogic WebLogic { get; set; }
     }
 }

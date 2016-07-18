@@ -1,4 +1,25 @@
+#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Pinoacres.Web.UI.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Pinoacres.Web.UI.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Web.UI\Pinoacres.Web.UI.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
 #:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj
 C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
 C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Console.Tester\Pinoacres.Console.Tester.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj
 C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+#:C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.MLBExtraBasesService\Pinoacres.MLBExtraBasesService.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.MLBExtraBasesService\Pinoacres.MLBExtraBasesService.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.MLBExtraBasesService\Pinoacres.MLBExtraBasesService.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.MLBExtraBasesService\Pinoacres.MLBExtraBasesService.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.BusinessObjects\Pinoacres.BusinessObjects.xproj
+C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.Logic\Pinoacres.Logic.xproj|C:\Users\Bruce Longacre\Documents\Git\pinoacres\src\Pinoacres.DALC\Pinoacres.DALC.xproj
