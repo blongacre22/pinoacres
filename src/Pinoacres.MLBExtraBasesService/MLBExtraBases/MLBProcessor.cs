@@ -14,7 +14,12 @@ namespace Pinoacres.MLBExtraBasesService
 
         public void Run()
         {
-            api.MLBExtraBasesLogic.GetTicketDataForDate(DateTime.Today);
+            bool keepRunning = false;
+
+            while (keepRunning)
+            {
+                keepRunning = api.MLBExtraBasesLogic.CheckForTickets(DateTime.Today);
+            }            
         }
     }
 }
