@@ -10,6 +10,7 @@ namespace Pinoacres.DataAccessLayer
         public DALC()
         {
             MLBExtraBasesDALC = new MLBExtraBasesDALC();
+            RPSLSDALC = new RPSLSDALC();
         }
 
         public MLBExtraBasesDALC MLBExtraBasesDALC { get; set; }

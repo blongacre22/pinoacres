@@ -19,280 +19,332 @@
     .company {
         padding-bottom: 1.25em;
     }
+
+    .text-left-responsive {
+        text-align: left;
+    }
+
+    .text-center-responsive {
+        text-align: center;
+    }
+
+    .text-right-responsive {
+        text-align: right;
+    }
+
+    @@media (max-width: 767px) {
+        .text-left-responsive { text-align: center }
+    }
+
+    @@media (max-width: 767px) {
+        .text-center-responsive { text-align: left }
+    }
+
+    @@media (max-width: 767px) {
+        .text-right-responsive { text-align: center }
+    }
+
+
 </style>
 
-<div class="text-center">
-    <h1>Bruce Claude Longacre II</h1>
-</div>
-<div class="row">
-    <div class="col-xs-4 text-left">
-        <span>916.572.8027</span>
+<div class="container-fluid">
+    <div class="text-center">
+        <h1>Bruce Claude Longacre II</h1>
     </div>
-    <div class="col-xs-4 text-center">
-        <span><a href="mailto:longacre.bruce@gmail.com">longacre.bruce@gmail.com</a></span>
+    <div class="row">
+        <div class="col-md-4 text-left-responsive">
+            <span>916.572.8027</span>
+        </div>
+        <div class="col-md-4 text-center">
+            <span><a href="mailto:longacre.bruce@gmail.com">longacre.bruce@gmail.com</a></span> <a href="https://www.linkedin.com/in/bruce-longacre-ii-b387bb4" target="_blank"><img src="~/images/linkedin-icon-small.png" /></a> <a href="http://www.indeed.com/r/e8b018eeb26ed8f6" target="_blank"><img src="~/images/icon=26x.png" /></a>
+        </div>
+        <div class="col-md-4 text-right-responsive">
+            <span>North Natomas area, Sacramento, CA 95835</span>
+        </div>
     </div>
-    <div class="col-xs-4 text-right">
-        <span>North Natomas area, Sacramento, CA 95835</span>
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <p>Detail-oriented technology professional with experience in coding, network operations, and software support. Exceptional communication, writing, and interpersonal skills. Natural troubleshooter and analytical problem solver. Experience in writing documentation, process creation, and peer training. Able to meet deadlines, prioritize tasks, and work well in a team environment. Expert ability to learn new software and development environment technologies.</p>
+        </div>
     </div>
-</div>
-<br />
-<div class="row">
-    <div class="col-xs-12">
-        <p>Detail-oriented technology professional with experience in coding, network operations, and software support. Exceptional communication, writing, and interpersonal skills. Natural troubleshooter and analytical problem solver. Experience in writing documentation, process creation, and peer training. Able to meet deadlines, prioritize tasks, and work well in a team environment. Expert ability to learn new software and development environment technologies.</p>
-    </div>
-</div>
 
-<h2>Experience</h2>
+    <h2>Experience</h2>
 
-<div id="divNatoma" class="company">
-    <div class="row company-row">
-        <div class="col-xs-4 text-left">
-            <span class="company-name">Natoma Technologies, Inc.</span>
+    <div id="divNatoma" class="company">
+        <div class="row company-row">
+            <div class="col-md-4 text-left-responsive">
+                <span class="company-name">Natoma Technologies, Inc.</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="~/images/natoma_83px.jpg" alt="Natoma Technologies logo" class="img-rounded company-logo">
+            </div>
+            <div class="col-md-4 text-right-responsive">
+                <a href="http://www.natomatech.com" target="_blank">natomatech.com</a>
+            </div>
         </div>
-        <div class="col-xs-4 text-center">
-            <img src="~/images/natoma_83px.jpg" alt="Natoma Technologies logo" class="img-rounded company-logo">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <span><strong>Software Engineer</strong></span>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>Sacramento, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>November 2015 - Current</span>
+            </div>
         </div>
-        <div class="col-xs-4 text-right">
-            <a href="http://www.natomatech.com" target="_blank">http://www.natomatech.com</a>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>.NET development in C#</li>
+                    <li>Experience with Amazon Web Services (AWS)</li>
+                    <li>Public sector work</li>
+                    <li>ADA compliance in website design</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-4">
-            <span><strong>Software Engineer</strong></span>
+
+    <div id="divDirectTechnology" class="company">
+        <div class="row">
+            <div class="col-md-4 text-left-responsive">
+                <span class="company-name">Direct Technology</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="~/images/DirectTechLogo_83px.png" alt="Direct Technology logo" class="img-rounded company-logo">
+            </div>
+            <div class="col-md-4 text-right-responsive">
+                <a href="http://directtechnology.com/" target="_blank">directtechnology.com</a>
+            </div>
         </div>
-        <div class="col-xs-4 text-center">
-            <span>Sacramento, CA</span>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <span><strong>Software Developer</strong></span>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>Roseville, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>April 2014 - November 2015</span>
+            </div>
         </div>
-        <div class="col-xs-4 text-right">
-            <span>November 2015 - Current</span>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>Web application design and development of enterprise software using .NET framework in C#.</li>
+                    <li>Responsive front-end design using jQuery, Bootstrap, and Knockout, paired with AJAX webservice calls.</li>
+                    <li>Database design, maintenance, creation of stored procedures, and scripting for Microsoft SQL Server.</li>
+                    <li>Work alongside Business Analysts to interpret and revise application specifications.</li>
+                    <li>Self-motivated and able to meet deadlines and work independently.</li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>.NET development in C#</li>
-                <li>Experience with Amazon Web Services (AWS)</li>
-                <li>Public sector work</li>
-                <li>ADA compliance in website design</li>
-            </ul>
+
+    <div id="divAcutiva" class="company">
+        <div class="row">
+            <div class="col-md-4 text-left-responsive">
+                <div class="company-name">Auctiva, Inc.</div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="~/images/auc-logo_83px.png" alt="Auctiva logo" class="img-rounded company-logo">
+            </div>
+            <div class="col-md-4 text-right-responsive">
+                <a href="https://www.auctiva.com/" target="_blank">auctiva.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <strong><span>Software Developer</span></strong>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>Chico, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>January 2013 - March 2014</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>Website design and maintenance development using .NET framework in C# for E-Commerce websites.</li>
+                    <li>In-depth knowledge of multiple development environments and business software.</li>
+                    <li>Front-end solutions using JavaScript, HTML, CSS, and Razor syntax.</li>
+                    <li>Experience working in teams using Agile methodologies and strong interdepartmental communication skills.</li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    <div id="divSunGard" class="company">
+        <div class="row">
+            <div class="col-md-4 text-left-responsive">
+                <span class="company-name">SunGard K-12 Education</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="~/images/sungard_imgjpg_83px.jpg" alt="SunGard logo" class="img-rounded company-logo">
+            </div>
+            <div class="col-md-4 text-right-responsive">
+                <a href="http://sungardk12.com/" target="_blank">sungardk12.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <strong><span>Software Developer</span></strong>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>Chico, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>June 2012 - January 2013</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>Design of original enterprise software programming solutions with knowledge of multiple coding languages.</li>
+                    <li>Maintenance and bug fixes for existing code solutions. Program testing and troubleshooting.</li>
+                    <li>Direct phone and email interaction with end-users for development specifications.</li>
+                    <li>Creation of detailed documentation and user guides, program specification documentation, and maintenance of internal departmental webpage.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <strong><span>Senior Product Support Specialist</span></strong>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>Chico, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>May 2008 - June 2012</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>Provide Customer Service support for BusinessPLUS financial software. Direct phone and email contact with end-users of BusinessPLUS software, providing documentation, training, and assessing software functionality.</li>
+                    <li>Received “Above and Beyond Award” for maintaining a high level of performance with an increased work load.</li>
+                    <li>Regularly exceed departmental goals for Cases Closed per Day and Customer Satisfaction Survey metrics.</li>
+                    <li>Product troubleshooting and debugging; software code defect write-ups.</li>
+                    <li>Create detailed documentation for department processes and procedure; supplemental product documentation.</li>
+                    <li>Training of new and current employees on department processes and tools; training on BusinessPLUS product.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="divIngenio" class="company">
+        <div class="row">
+            <div class="col-md-4 text-left-responsive">
+                <span class="company-name">Ingenio, Inc.</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="~/images/D5_ingeniologo_v2.png" alt="Ingenio logo" class="img-rounded company-logo">
+            </div>
+            <div class="col-md-4 text-right-responsive">
+                <a href="https://www.ingenio.com/" target="_blank">ingenio.com</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+                <strong><span>Site Operations Center Technician</span></strong>
+            </div>
+            <div class="col-md-4 col-xs-5 text-center-responsive">
+                <span>San Francisco, CA</span>
+            </div>
+            <div class="col-md-4 col-xs-7 text-right">
+                <span>November 2006 - May 2008</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li>Website management and monitoring.</li>
+                    <li>Web server software/hardware installation and maintenance.</li>
+                    <li>Management of IT accounts/logins for various departments of the company using Active Directory.</li>
+                    <li>Troubleshooting and general service management with third party vendors/partners.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2>Skills</h2>
+    <table class="table table-striped table-responsive">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Proficient In</th>
+                <th>Experience With</th>
+                <th>Knowlege Of</th>
+                <th>Scared Of</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Languages</th>
+                <td>C#, SQL, JavaScript, CSS, HTML, Razor</td>
+                <td>C++</td>
+                <td>COBOL, Java</td>
+                <td>Python (actual snakes, not the coding language)</td>
+            </tr>
+            <tr>
+                <th>Frameworks/Libraries</th>
+                <td>ASP.NET (Forms, MVC), .NET Core, jQuery, Bootstrap</td>
+                <td>Knockout, AutoMapper</td>
+                <td>AngularJS, NodeJS, Ruby on Rails, </td>
+                <td>Gggggghhhoosssttts!</td>
+            </tr>
+            <tr>
+                <th>Misc. Technology</th>
+                <td>SSIS, SSRS, AWS, RESTful Web Services, TFS</td>
+                <td>AJAX, Git</td>
+                <td>MySQL, Docker</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Software</th>
+                <td>Visual Studio, SQL Management Studio, SSRS Report Designer, SQL Business Intelligence Studio, Microsoft Office</td>
+                <td>PuTTy, Visio</td>
+                <td>SolidWorks, AutoCAD, Photoshop</td>
+                <td>E-Corp</td>
+            </tr>
+            <tr>
+                <th>Operating Systems</th>
+                <td>Windows</td>
+                <td>iOS, OsX</td>
+                <td>Linux</td>
+                <td>The Matrix</td>
+            </tr>
+            <tr>
+                <th>Hardware</th>
+                <td>PC, Mobile Devices, Tablets</td>
+                <td>Digital Multimeter, Oscilloscope, Control Systems Analyzer, Function Generator</td>
+                <td>BB-8</td>
+                <td>T-1000</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Certifications</h2>
+    <h3>Amazon Web Services Solutions Architech (In Progress)</h3>
+    <h2>Education</h2>
+    <div id="divChicoState">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>California State University, Chico</h3>
+            </div>
+            <div class="col-md-6 text-right-responsive">
+                May 2006
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                Bachelor of Science in <strong>Mechatronic Engineering</strong>
+            </div>
+            <div class="col-md-6 text-right-responsive">
+                Minor in Mathematics
+            </div>
+        </div>
+    </div>    
 </div>
-
-<div id="divDirectTechnology" class="company">
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <span class="company-name">Direct Technology</span>
-        </div>
-        <div class="col-xs-4 text-center">
-            <img src="~/images/DirectTechLogo_83px.png" alt="Direct Technology logo" class="img-rounded company-logo">
-        </div>
-        <div class="col-xs-4 text-right">
-            <a href="http://directtechnology.com/" target="_blank">http://directtechnology.com</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4">
-            <span><strong>Software Developer</strong></span>
-        </div>
-        <div class="col-xs-4 text-center">
-            <span>Roseville, CA</span>
-        </div>
-        <div class="col-xs-4 text-right">
-            <span>April 2014 - November 2015</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>Web application design and development of enterprise software using .NET framework in C#.</li>
-                <li>Responsive front-end design using jQuery, Bootstrap, and Knockout, paired with AJAX webservice calls.</li>
-                <li>Database design, maintenance, creation of stored procedures, and scripting for Microsoft SQL Server.</li>
-                <li>Work alongside Business Analysts to interpret and revise application specifications.</li>
-                <li>Self-motivated and able to meet deadlines and work independently.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div id="divAcutiva" class="company">
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <div class="company-name">Auctiva, Inc.</div>
-        </div>
-        <div class="col-xs-4 text-center">
-            <img src="~/images/auc-logo_83px.png" alt="Auctiva logo" class="img-rounded company-logo">
-        </div>
-        <div class="col-xs-4 text-right">
-            <a href="https://www.auctiva.com/" target="_blank">https://www.auctiva.com/</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <strong><span>Software Developer</span></strong>
-        </div>
-        <div class="col-xs-4 text-center">
-            <span>Chico, CA</span>
-        </div>
-        <div class="col-xs-4 text-right">
-            <span>January 2013 - March 2014</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>Website design and maintenance development using .NET framework in C# for E-Commerce websites.</li>
-                <li>In-depth knowledge of multiple development environments and business software.</li>
-                <li>Front-end solutions using JavaScript, HTML, CSS, and Razor syntax.</li>
-                <li>Experience working in teams using Agile methodologies and strong interdepartmental communication skills.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div id="divSunGard" class="company">
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <span class="company-name">SunGard K-12 Education</span>
-        </div>
-        <div class="col-xs-4 text-center">
-            <img src="~/images/sungard_imgjpg_83px.jpg" alt="SunGard logo" class="img-rounded company-logo">
-        </div>
-        <div class="col-xs-4 text-right">
-            <a href="http://sungardk12.com/" target="_blank">http://sungardk12.com</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <strong><span>Software Developer</span></strong>
-        </div>
-        <div class="col-xs-4 text-center">
-            <span>Chico, CA</span>
-        </div>
-        <div class="col-xs-4 text-right">
-            <span>June 2012 - January 2013</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>Design of original enterprise software programming solutions with knowledge of multiple coding languages.</li>
-                <li>Maintenance and bug fixes for existing code solutions. Program testing and troubleshooting.</li>
-                <li>Direct phone and email interaction with end-users for development specifications.</li>
-                <li>Creation of detailed documentation and user guides, program specification documentation, and maintenance of internal departmental webpage.</li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <strong><span>Senior Product Support Specialist</span></strong>
-        </div>
-        <div class="col-xs-4 text-center">
-            <span>Chico, CA</span>
-        </div>
-        <div class="col-xs-4 text-right">
-            <span>May 2008 - June 2012</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>Provide Customer Service support for BusinessPLUS financial software. Direct phone and email contact with end-users of BusinessPLUS software, providing documentation, training, and assessing software functionality.</li>
-                <li>Received “Above and Beyond Award” for maintaining a high level of performance with an increased work load.</li>
-                <li>Regularly exceed departmental goals for Cases Closed per Day and Customer Satisfaction Survey metrics.</li>
-                <li>Product troubleshooting and debugging; software code defect write-ups.</li>
-                <li>Create detailed documentation for department processes and procedure; supplemental product documentation.</li>
-                <li>Training of new and current employees on department processes and tools; training on BusinessPLUS product.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div id="divIngenio" class="company">
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <span class="company-name">Ingenio, Inc.</span>
-        </div>
-        <div class="col-xs-4 text-center">
-            <img src="~/images/D5_ingeniologo_v2.png" alt="Ingenio logo" class="img-rounded company-logo">
-        </div>
-        <div class="col-xs-4 text-right">
-            <a href="https://www.ingenio.com/" target="_blank">https://www.ingenio.com</a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4 text-left">
-            <strong><span>Site Operations Center Technician</span></strong>
-        </div>
-        <div class="col-xs-4 text-center">
-            <span>San Francisco, CA</span>
-        </div>
-        <div class="col-xs-4 text-right">
-            <span>November 2006 - May 2008</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <ul>
-                <li>Website management and monitoring.</li>
-                <li>Web server software/hardware installation and maintenance.</li>
-                <li>Management of IT accounts/logins for various departments of the company using Active Directory.</li>
-                <li>Troubleshooting and general service management with third party vendors/partners.</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<h2>Skills</h2>
-<table class="table table-striped table-responsive">
-    <thead>
-        <tr>
-            <th></th>
-            <th>Proficient In</th>
-            <th>Experience With</th>
-            <th>Knowlege Of</th>
-            <th>Scared Of</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>Languages</th>
-            <td>C#, SQL</td>
-            <td>C++</td>
-            <td>COBOL</td>
-            <td>Python (actual snakes, not the coding language)</td>
-        </tr>
-        <tr>
-            <th>Frameworks</th>
-            <td>.NET, jQuery</td>
-            <td>Knockout</td>
-            <td>AngularJS</td>
-            <td>Gggggghhhoosssttts!</td>
-        </tr>
-        <tr>
-            <th>Software</th>
-            <td>Visual Studio, SSMS</td>
-            <td>PuTTy</td>
-            <td>Eclipse</td>
-            <td>E-Corp</td>
-        </tr>
-        <tr>
-            <th>Operating Systems</th>
-            <td>Windows</td>
-            <td>iOS, OsX</td>
-            <td>Linux</td>
-            <td>The Matrix</td>
-        </tr>
-        <tr>
-            <th>Hardware</th>
-            <td>Computers</td>
-            <td>DMM, Oscilliscope</td>
-            <td>BB-8</td>
-            <td>T-1000</td>
-        </tr>
-    </tbody>
-</table>
-<h2>Certifications</h2>
-<h3>Amazon Web Services Solutions Architech (TBD)</h3>
-<h2>Education</h2>
-<h3>California State University, Chico</h3>
