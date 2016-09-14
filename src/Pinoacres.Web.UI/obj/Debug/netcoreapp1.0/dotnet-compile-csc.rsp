@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\BundlerMinifier.Core\2.1.258\lib\netcoreapp1.0\dotnet-bundle.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\MailKit\1.4.1\lib\netstandard1.3\MailKit.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -194,15 +194,15 @@
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Bruce Longacre\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--r:"C:\DEV\Git\pinoacres\src\Pinoacres.BusinessObjects\bin\Debug\netstandard1.6\Pinoacres.BusinessObjects.dll"
--r:"C:\DEV\Git\pinoacres\src\Pinoacres.DALC\bin\Debug\netstandard1.6\Pinoacres.DALC.dll"
--r:"C:\DEV\Git\pinoacres\src\Pinoacres.Logic\bin\Debug\netstandard1.6\Pinoacres.Logic.dll"
--resource:"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\AdventureController.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\BasePinoacresController.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MLBController.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MothersDayController.cs"
-"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\RPSLSController.cs"
+-r:"c:\DEV\Git\pinoacres\src\Pinoacres.BusinessObjects\bin\Debug\netstandard1.6\Pinoacres.BusinessObjects.dll"
+-r:"c:\DEV\Git\pinoacres\src\Pinoacres.DALC\bin\Debug\netstandard1.6\Pinoacres.DALC.dll"
+-r:"c:\DEV\Git\pinoacres\src\Pinoacres.Logic\bin\Debug\netstandard1.6\Pinoacres.Logic.dll"
+-resource:"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\AdventureController.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\BasePinoacresController.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MLBController.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MothersDayController.cs"
+"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\RPSLSController.cs"

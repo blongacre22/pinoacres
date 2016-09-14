@@ -1,5 +1,5 @@
---temp-output:C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\
---out:C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll
+--temp-output:c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\
+--out:c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\bin\Debug\netcoreapp1.0\Pinoacres.Web.UI.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -198,15 +198,15 @@
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Bruce Longacre\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:C:\DEV\Git\pinoacres\src\Pinoacres.BusinessObjects\bin\Debug\netstandard1.6\Pinoacres.BusinessObjects.dll
---reference:C:\DEV\Git\pinoacres\src\Pinoacres.DALC\bin\Debug\netstandard1.6\Pinoacres.DALC.dll
---reference:C:\DEV\Git\pinoacres\src\Pinoacres.Logic\bin\Debug\netstandard1.6\Pinoacres.Logic.dll
---resource:"C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\AdventureController.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\BasePinoacresController.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MLBController.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MothersDayController.cs
-C:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\RPSLSController.cs
+--reference:c:\DEV\Git\pinoacres\src\Pinoacres.BusinessObjects\bin\Debug\netstandard1.6\Pinoacres.BusinessObjects.dll
+--reference:c:\DEV\Git\pinoacres\src\Pinoacres.DALC\bin\Debug\netstandard1.6\Pinoacres.DALC.dll
+--reference:c:\DEV\Git\pinoacres\src\Pinoacres.Logic\bin\Debug\netstandard1.6\Pinoacres.Logic.dll
+--resource:"c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\obj\Debug\netcoreapp1.0\Pinoacres.Web.UIdotnet-compile.deps.json",Pinoacres.Web.UI.deps.json
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Program.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Startup.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\AdventureController.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\BasePinoacresController.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\HomeController.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MLBController.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\MothersDayController.cs
+c:\DEV\Git\pinoacres\src\Pinoacres.Web.UI\Controllers\RPSLSController.cs
